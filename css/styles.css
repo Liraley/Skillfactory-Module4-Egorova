@@ -1,0 +1,131 @@
+html {
+    background-color: #f8f4f0;
+    color: #332314;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color:#FFC1BC;
+    padding: 1.2em;
+    box-sizing: border-box;
+    margin-top: -8px;
+    line-height: 2em;
+    width: 100%;
+    text-align: center;
+    }
+
+h1 {
+    background-color: #ffffff50;
+    border: 1px solid #C4564D;
+    padding: 0.5em;
+    width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+}
+
+.about {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;  
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts_icon {
+    margin-right: 10px;
+}
+
+.social {
+    margin-top: 5px;
+}
+
+div img {
+    border-radius: 3px;
+}
+figure {
+    margin-left: 0;
+}
+.image {
+    padding: 2px;
+    border: 5px solid #C4564D;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #241130;
+}
+
+.info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.text_block {
+    background-color: #ffffff50;
+    border: 1px solid #C4564D;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.text_block:hover {
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    background-color: #FFEABC;
+}
+
+.text_block a {
+    color: #0c6f7e
+}
+
+.head_block {
+    margin-bottom: 5px;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a {
+    background-color: #FFDDDB;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #C4564D;
+    color: #170b1f;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: #FF9D96;
+}
+
+.footer {
+    background-color: #FFC1BC;
+    width: 100%;
+    height: 2em;
+    /* position: absolute;
+    margin-left: -8px; */
+}
